@@ -2,6 +2,13 @@
     height: 55px;
 }
 
+body {
+    background-image:url('../images/JULIANARCENEW.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .title-nav {
     font-family: 'Sedgwick Ave Display', cursive;
 }
@@ -11,6 +18,14 @@
     height: 30px;
 }
 
+.container img {
+    height: 250px;
+}
+
+.col-md-3 .bg-dark {
+    width: fit-content;
+}
+
 .main {
     flex: 1;
 }
@@ -18,6 +33,7 @@
 span {
     font-family: 'Delicious Handrawn', cursive;
 }
+
 li, h2 {
     font-family: 'Sedgwick Ave Display', cursive;
 }
