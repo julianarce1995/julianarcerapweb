@@ -10,6 +10,11 @@
     list-style: none;
     height: 30px;
 }
+
+.main {
+    flex: 1;
+}
+
 span {
     font-family: 'Delicious Handrawn', cursive;
 }
